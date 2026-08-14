@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>正德50週年 — 五十年，我們都在這裡</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",sans-serif; background:#0e2440; color:#f5f0e4; }
+.banner { text-align:center; padding:0 0 32px; background:linear-gradient(180deg,#16345c 0%,#0e2440 100%); }
+.banner-img { width:100%; max-height:320px; object-fit:cover; display:block; opacity:.55; }
+.banner h1 { font-size:2.2em; color:#e8c95a; letter-spacing:6px; font-weight:700; text-shadow:0 2px 8px rgba(0,0,0,.4); margin-top:24px; }
+.banner .sub { margin-top:10px; font-size:1.05em; color:#c8c2b0; letter-spacing:2px; }
+.banner .temple { margin-top:6px; font-size:.85em; color:#8a93a5; }
+.specials { text-align:center; padding:6px 16px 16px; }
+.special-link { display:inline-block; margin:4px 6px; padding:8px 18px; background:#16345c; color:#e8c95a;
+  border:1px solid #c9a227; border-radius:20px; text-decoration:none; font-size:.9em; }
+.tabs { display:flex; justify-content:center; flex-wrap:wrap; gap:8px; padding:8px 12px 18px; }
+.tab { padding:8px 22px; background:#16345c; color:#c8c2b0; border:1px solid #2a4a7a; border-radius:20px;
+  cursor:pointer; font-size:1em; font-family:inherit; }
+.tab.active { background:#c9a227; color:#0e2440; border-color:#c9a227; font-weight:700; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:16px;
+  padding:4px 20px 48px; max-width:1000px; margin:0 auto; }
+.card { display:block; background:#16345c; border:1px solid #2a4a7a; border-radius:14px; overflow:hidden;
+  text-decoration:none; color:#f5f0e4; transition:transform .15s, box-shadow .15s; }
+.card:hover { transform:translateY(-3px); box-shadow:0 6px 18px rgba(0,0,0,.4); border-color:#c9a227; }
+.card-photo { width:100%; aspect-ratio:3/4; object-fit:cover; display:block; background:#1d3a63; }
+.card-photo-empty { display:flex; align-items:center; justify-content:center; font-size:2.4em; color:#5a7398; }
+.card-name { text-align:center; padding:10px 6px 2px; font-size:1.02em; font-weight:600; letter-spacing:1px; }
+.card-unit { text-align:center; padding:0 6px 8px; font-size:.75em; color:#8a93a5; }
+.badge { display:inline-block; margin:2px; padding:2px 8px; border-radius:10px; font-size:.65em; }
+.badge-photo { background:#5b3b1f; color:#e8c95a; }
+.badge-doc { background:#2d4a63; color:#9fc3d8; }
+.footer { text-align:center; padding:24px; color:#7a8394; font-size:.8em; border-top:1px solid #1d3a63; }
+</style>
+</head>
+<body>
+<div class="banner">
+  <img class="banner-img" src="banner.jpg" alt="正德大家庭合影">
+  <h1>五十年，我們都在這裡</h1>
+  <div class="sub">正德50週年 道親心得展</div>
+  <div class="temple">發一崇德 正德佛堂 · 民國115年</div>
+</div>
+<div class="tabs"><button class="tab active" data-unit="正德">正德</button><button class="tab active" data-unit="毓德">毓德</button><button class="tab active" data-unit="聖德">聖德</button></div>
+<div class="grid" id="grid">
+
+        <a class="card" data-unit="正德" href="person_正德_傅秀英.html">
+          <img class="card-photo" src="photos/正德_傅秀英_1.jpg" alt="傅秀英" loading="lazy">
+          <div class="card-name">傅秀英</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_張宜亞.html">
+          <img class="card-photo" src="photos/正德_張宜亞_1.jpg" alt="張宜亞" loading="lazy">
+          <div class="card-name">張宜亞</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_張桂香.html">
+          <img class="card-photo" src="photos/正德_張桂香_1.jpg" alt="張桂香" loading="lazy">
+          <div class="card-name">張桂香</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_張鎮寰.html">
+          <img class="card-photo" src="photos/正德_張鎮寰_1.jpg" alt="張鎮寰" loading="lazy">
+          <div class="card-name">張鎮寰</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_李奕蓉.html">
+          <img class="card-photo" src="photos/正德_李奕蓉_1.jpg" alt="李奕蓉" loading="lazy">
+          <div class="card-name">李奕蓉</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_李忠道.html">
+          <img class="card-photo" src="photos/正德_李忠道_1.jpg" alt="李忠道" loading="lazy">
+          <div class="card-name">李忠道</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_李美專.html">
+          <div class="card-photo card-photo-empty">📷</div>
+          <div class="card-name">李美專</div>
+          <div class="card-unit">正德</div>
+          <span class="badge badge-photo">待照片</span>
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_李麗娟.html">
+          <img class="card-photo" src="photos/正德_李麗娟_1.jpg" alt="李麗娟" loading="lazy">
+          <div class="card-name">李麗娟</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_楊根南.html">
+          <div class="card-photo card-photo-empty">📷</div>
+          <div class="card-name">楊根南</div>
+          <div class="card-unit">正德</div>
+          <span class="badge badge-photo">待照片</span>
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_簡菁頤.html">
+          <div class="card-photo card-photo-empty">📷</div>
+          <div class="card-name">簡菁頤</div>
+          <div class="card-unit">正德</div>
+          <span class="badge badge-photo">待照片</span>
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_羅玉香.html">
+          <img class="card-photo" src="photos/正德_羅玉香_1.jpg" alt="羅玉香" loading="lazy">
+          <div class="card-name">羅玉香</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_莊曉竹.html">
+          <img class="card-photo" src="photos/正德_莊曉竹_1.jpg" alt="莊曉竹" loading="lazy">
+          <div class="card-name">莊曉竹</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_葉成春.html">
+          <div class="card-photo card-photo-empty">📷</div>
+          <div class="card-name">葉成春</div>
+          <div class="card-unit">正德</div>
+          <span class="badge badge-photo">待照片</span>
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_許寶媧.html">
+          <img class="card-photo" src="photos/正德_許寶媧_1.jpg" alt="許寶媧" loading="lazy">
+          <div class="card-name">許寶媧</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_許淑惠.html">
+          <div class="card-photo card-photo-empty">📷</div>
+          <div class="card-name">許淑惠</div>
+          <div class="card-unit">正德</div>
+          <span class="badge badge-photo">待照片</span>
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_謝政華.html">
+          <div class="card-photo card-photo-empty">📷</div>
+          <div class="card-name">謝政華</div>
+          <div class="card-unit">正德</div>
+          <span class="badge badge-photo">待照片</span>
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_邱金沙.html">
+          <img class="card-photo" src="photos/正德_邱金沙_1.jpg" alt="邱金沙" loading="lazy">
+          <div class="card-name">邱金沙</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_陳乙嫺.html">
+          <img class="card-photo" src="photos/正德_陳乙嫺_1.jpg" alt="陳乙嫺" loading="lazy">
+          <div class="card-name">陳乙嫺</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_陳秀鳳.html">
+          <img class="card-photo" src="photos/正德_陳秀鳳_1.jpg" alt="陳秀鳳" loading="lazy">
+          <div class="card-name">陳秀鳳</div>
+          <div class="card-unit">正德</div>
+          
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_陳聰明.html">
+          <div class="card-photo card-photo-empty">📷</div>
+          <div class="card-name">陳聰明</div>
+          <div class="card-unit">正德</div>
+          <span class="badge badge-photo">待照片</span>
+        </a>
+        <a class="card" data-unit="正德" href="person_正德_駱玟鴒.html">
+          <div class="card-photo card-photo-empty">📷</div>
+          <div class="card-name">駱玟鴒</div>
+          <div class="card-unit">正德</div>
+          <span class="badge badge-photo">待照片</span>
+        </a>
+        <a class="card" data-unit="毓德" href="person_毓德_曹芳瑜.html">
+          <div class="card-photo card-photo-empty">📷</div>
+          <div class="card-name">曹芳瑜</div>
+          <div class="card-unit">毓德</div>
+          <span class="badge badge-photo">待照片</span>
+        </a>
+        <a class="card" data-unit="毓德" href="person_毓德_曾柏宥.html">
+          <div class="card-photo card-photo-empty">📷</div>
+          <div class="card-name">曾柏宥</div>
+          <div class="card-unit">毓德</div>
+          <span class="badge badge-photo">待照片</span>
+        </a>
+        <a class="card" data-unit="毓德" href="person_毓德_楊卉妘.html">
+          <div class="card-photo card-photo-empty">📷</div>
+          <div class="card-name">楊卉妘</div>
+          <div class="card-unit">毓德</div>
+          <span class="badge badge-photo">待照片</span>
+        </a>
+        <a class="card" data-unit="聖德" href="person_聖德_蔡秀庭.html">
+          <img class="card-photo" src="photos/聖德_蔡秀庭_1.jpg" alt="蔡秀庭" loading="lazy">
+          <div class="card-name">蔡秀庭</div>
+          <div class="card-unit">聖德</div>
+          <span class="badge badge-doc">待心得</span>
+        </a>
+</div>
+<div class="footer">正德佛堂50週年 · 道親紀念冊</div>
+<script>
+const tabs = document.querySelectorAll('.tab');
+tabs.forEach(t=>t.addEventListener('click',()=>{
+  tabs.forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  const u = t.dataset.unit;
+  document.querySelectorAll('.card').forEach(c=>{
+    c.style.display = (c.dataset.unit===u)?'':'none';
+  });
+}));
+</script>
+</body>
+</html>
